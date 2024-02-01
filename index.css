@@ -70,7 +70,7 @@ h1 {
 }
 
 main {
-    max-width: 70%;
+    max-width: 80%;
     margin: auto;
     padding-top: 80px;
 }
@@ -159,4 +159,10 @@ h2 {
 #petitsimage {
     display: flex;
     justify-content: space-between;
+}
+
+#text_contact {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
