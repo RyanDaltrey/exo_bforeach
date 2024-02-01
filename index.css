@@ -69,4 +69,15 @@ img {
     font-size: 20px;
 }
 
+main {
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#titre_main {
+    padding-bottom: 20px;
+}
+
 
