@@ -103,20 +103,24 @@ main {
 
 #quille {
     background-color:rgb(148, 203, 239);
-    padding: 20px 100px 70px 100px;
+    padding: 20px 100px 30px 100px;
     margin: 5px;
 }
 
 #baseball {
     background-color: pink;
-    padding: 20px 100px 70px 100px;
+    padding: 20px 100px 30px 100px;
     margin: 5px;
 }
 
 #billard {
     background-color: rgb(242, 247, 135);
-    padding: 20px 100px 70px 100px;
+    padding: 20px 100px 30px 100px;
     margin: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 h3 {
@@ -126,13 +130,3 @@ h3 {
     text-align: center;
 }
 
-#icon_personbow , #icon_personbas , #icon_personbil {
-    width: 20px;
-}
-
-
- .prix_content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
