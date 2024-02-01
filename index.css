@@ -72,16 +72,17 @@ h1 {
 main {
     max-width: 70%;
     margin: auto;
-    text-align: center;
     padding-top: 80px;
 }
 
 #titre_main {
     padding-bottom: 20px;
+    text-align: center;
 }
 
 #text_main {
     padding-bottom: 20px;
+    text-align: center;
 }
 
 #liste_offre {
@@ -91,27 +92,47 @@ main {
     justify-content: space-around;
 }
 
-img {
+
+#bowling_image , #baseball_image , #billard_image {
     width: 100px;
-    padding-top: 20px;
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+    
+
 }
 
 #quille {
     background-color:rgb(148, 203, 239);
-    padding: 20px 100px 100px 100px;
+    padding: 20px 100px 70px 100px;
     margin: 5px;
 }
 
 #baseball {
     background-color: pink;
-    padding: 20px 100px 100px 100px;
+    padding: 20px 100px 70px 100px;
     margin: 5px;
 }
 
 #billard {
     background-color: rgb(242, 247, 135);
-    padding: 20px 100px 100px 100px;
+    padding: 20px 100px 70px 100px;
     margin: 5px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#icon_personbow , #icon_personbas , #icon_personbil {
+    width: 20px;
+}
+
+
+ .prix_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
