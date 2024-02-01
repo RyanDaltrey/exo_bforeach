@@ -80,9 +80,38 @@ main {
     padding-bottom: 20px;
 }
 
+#text_main {
+    padding-bottom: 20px;
+}
+
 #liste_offre {
-    max-width: 1920px;
+    max-width: 80%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+img {
+    width: 100px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#quille {
+    background-color:rgb(148, 203, 239);
+    padding: 20px 100px 100px 100px;
+    margin: 5px;
+}
+
+#baseball {
+    background-color: pink;
+    padding: 20px 100px 100px 100px;
+    margin: 5px;
+}
+
+#billard {
+    background-color: rgb(242, 247, 135);
+    padding: 20px 100px 100px 100px;
+    margin: 5px;
 }
