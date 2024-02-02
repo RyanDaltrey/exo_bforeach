@@ -165,4 +165,46 @@ h2 {
    display: flex;
    flex-direction: column;
    align-items: center;
+   margin-bottom: 20px;
+}
+
+
+#contacter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#label_block {
+    display: flex;
+    flex-direction: column;
+}
+
+
+input {
+    padding-right: 250%;
+    padding-bottom: 25px;
+    border-color: 1px solid rgb(184, 184, 184);
+    border-top: 1px solid rgb(184, 184, 184);
+    border-left: 1px solid rgb(184, 184, 184);
+    border-bottom: 1px solid rgb(184, 184, 184);
+    border-right: 1px solid rgb(184, 184, 184);
+    outline: none;
+    border-radius: 2px;
+}
+
+textarea {
+    border-color: 1px solid rgb(184, 184, 184);
+    border-top: 1px solid rgb(184, 184, 184);
+    border-left: 1px solid rgb(184, 184, 184);
+    border-bottom: 1px solid rgb(184, 184, 184);
+    border-right: 1px solid rgb(184, 184, 184);
+    outline: none;
+}
+
+#envoyer {
+    margin-left: 40%;
+    margin-top: 20px;
+    max-width: 4%;
+    background-color: rgb(84, 135, 243);
 }
